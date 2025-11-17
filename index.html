@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha PokeAPI</title>
+    <link rel="manifest" href="manifest.webmanifest"/>
+    <meta name="theme-color" content="#ec0089"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <header>
+        <h1>PokeAPI</h1>
+        <p>explore o universo pokemon</p>
+    </header>
+    <main id="app">
+        <p>Carregando...</p>
+    </main>
+
+    <script src="app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js').catch(console.error);
+        }
+    </script>
+         
+</body>
+</html>

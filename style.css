@@ -1,0 +1,77 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    background-color: #990f44;
+}
+
+header {
+    background-color: #ec0000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+#app {
+    padding: 1rem;
+}
+
+.serach-box {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.serach-box input {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+}
+
+.serach-box button {
+    background: #ec0000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.poke-list {
+    display: grid;
+    gap: 0.5rem;
+}
+
+.poke-card {
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.poke-details {
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.poke-details img {
+    width: 96px;
+    height: 96px;
+    image-rendering: pixelated;
+}
+
+small {
+    color: #666;
+}
+
+.data-source {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #666;
+}
